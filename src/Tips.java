@@ -15,7 +15,7 @@ public class Tips {
 
 
         double totaltip = tipPercentage * totalBill;
-        double totalCost =
+        double totalCost = 99
 
 
 
