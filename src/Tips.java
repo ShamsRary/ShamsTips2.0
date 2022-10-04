@@ -19,9 +19,9 @@ public class Tips {
         double totalPerPerson = totalCost/totalpeople;
 
         System.out.println("Total tip = " + totaltip);
-        System.out.println("Total cost = " + totalCost);
-        System.out.println("Total per person = " + tipPerPerson);
-        System.out.println("Total cost per person = " +  totalPerPerson);
+        System.out.println("Total cost including tip = " + totalCost);
+        System.out.println("Total tip for a person = " + tipPerPerson);
+        System.out.println("Total cost including tip for a person = " +  totalPerPerson);
         System.out.println("Thank you for using");
 
     }
