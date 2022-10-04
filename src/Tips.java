@@ -4,7 +4,6 @@ public class Tips {
     {
         System.out.println("Welocome user type in your bill.");
         Scanner input = new Scanner(System.in);
-
         double totalBill = input.nextDouble();
 
         System.out.println("Type in your Tip Percentage.");
@@ -14,13 +13,15 @@ public class Tips {
         int totalpeople = input.nextInt();
 
 
-        double totaltip = tipPercentage * totalBill;
-        double totalCost = 99
+        double totaltip = tipPercentage * totalBill * 0.01;
+        double totalCost = totaltip + totalBill;
+        double tipPerPerson =  totaltip/totalpeople;
+        double totalPerPerson = totalCost/totalpeople;
 
-
-
-
-
+        System.out.println("Total tip = " + totaltip);
+        System.out.println("Total cost = " + totalCost);
+        System.out.println("Total per person = " + tipPerPerson);
+        System.out.println("Total cost per person = " +  totalPerPerson);
 
     }
 }
