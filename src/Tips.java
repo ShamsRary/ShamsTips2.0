@@ -22,6 +22,7 @@ public class Tips {
         System.out.println("Total cost = " + totalCost);
         System.out.println("Total per person = " + tipPerPerson);
         System.out.println("Total cost per person = " +  totalPerPerson);
+        System.out.println("Thank you for using");
 
     }
 }
